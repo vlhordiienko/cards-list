@@ -1,16 +1,9 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
 
 /* put your styles in this file */
-/*
-.wrapper {
-  margin-top: 40px;
-  margin-bottom: 10px;
-  height: 90px;
-  padding-top: 50px;
-  background-color: rgb(206, 240, 239);
-} */
+
 .nav-pagination {
-  margin: 20px;
+  margin-top: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -38,12 +31,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-   background-color: #EDEDED;
-   border-radius: 50%;
-   color: #2c2c2c;
-   transition: .3c;
-   line-height: 1;
-   text-decoration: none;
+  background-color: #EDEDED;
+  border-radius: 50%;
+  color: #2c2c2c;
+  transition: .3c;
+  line-height: 1;
+  text-decoration: none;
 
 }
 

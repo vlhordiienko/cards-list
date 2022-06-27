@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Card component</title>
+  <link rel="stylesheet" href="./style copy.css">
+  <link rel="stylesheet" href="./cstyle.css">
+  <link rel="stylesheet" href="./pstyle.css">
+
+  <style>
+    .wrapper {
+      width: 1200px;
+      margin: 100px auto;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="root" class="wrapper"></div>
+
+  <script type="module">
+ 
+    import OnLineStorePage from './index.js';
+
+      const page = new OnLineStorePage();
+      const root = document.querySelector(`#root`);
+
+      root.append(page.element);
+
+  </script>
+</body>
+
+
+</html>
